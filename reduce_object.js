@@ -20,4 +20,6 @@ let total = cart.reduce((total, cartItems) => {
     cartTotal: 0
 });
 
-console.log(total);
+total.cartTotal = parseFloat(total.cartTotal.toFixed(2));
+
+console.log(total.cartTotal, total.totalItems);
