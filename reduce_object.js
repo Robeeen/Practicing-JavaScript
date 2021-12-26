@@ -24,5 +24,6 @@ total.cartTotal = parseFloat(total.cartTotal.toFixed(2));
 
 console.log(total.cartTotal, total.totalItems);
 
+//
 const example = (a, b) => (c, d) => (e, f) =>(a * c * e + b * d * f)
 console.log(example(1,2)(2,3)(3,4))
