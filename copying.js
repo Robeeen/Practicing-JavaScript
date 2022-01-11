@@ -15,9 +15,6 @@ const boysGirls = [...boys, ...girls];
 console.log(boysGirls);
 
 
-
-
-
 //with objects.
 const objects = {name: 'bob', age: 23};
 const new_objects = {...objects};
